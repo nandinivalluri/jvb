@@ -170,17 +170,18 @@ const styles = StyleSheet.create({
     marginTop: 20
   },
   picker: {
-    flex: 1,
+    
     alignItems: 'center',
     justifyContent: 'center',
-    marginTop: -300
+    
  
   },
     inputBox: {
     height: 40,
     width:200,
     borderWidth: 2,
-    justifyContent: 'center'
+    justifyContent: 'center',
+    marginTop: 20
   },
 
 })

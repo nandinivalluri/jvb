@@ -14,6 +14,9 @@ import Picker4 from '../Components/Picker4';
 import Picker5 from '../Components/Picker5';
 
 export default class Input extends React.Component {
+  static navigationOptions = {
+    title: Input,
+  };
   constructor(props) {
     super(props);
 
